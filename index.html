@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+<style>
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size:80px;
+    letter-spacing:5px;
+    text-transform:uppercase;
+    animation: neonGlow 3s infinite alternate;
+}
+
+/* Neon Animation */
+@keyframes neonGlow {
+    0%{
+        color:#ff00ff;
+        text-shadow:
+            0 0 5px #ff00ff,
+            0 0 10px #ff00ff,
+            0 0 20px #ff00ff,
+            0 0 40px #ff00ff;
+    }
+    25%{
+        color:#00ffff;
+        text-shadow:
+            0 0 5px #00ffff,
+            0 0 10px #00ffff,
+            0 0 20px #00ffff,
+            0 0 40px #00ffff;
+    }
+    50%{
+        color:#39ff14;
+        text-shadow:
+            0 0 5px #39ff14,
+            0 0 10px #39ff14,
+            0 0 20px #39ff14,
+            0 0 40px #39ff14;
+    }
+    75%{
+        color:#ff073a;
+        text-shadow:
+            0 0 5px #ff073a,
+            0 0 10px #ff073a,
+            0 0 20px #ff073a,
+            0 0 40px #ff073a;
+    }
+    100%{
+        color:#ff00ff;
+        text-shadow:
+            0 0 5px #ff00ff,
+            0 0 10px #ff00ff,
+            0 0 20px #ff00ff,
+            0 0 40px #ff00ff;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<h1>WELCOME</h1>
+
+</body>
+</html>
